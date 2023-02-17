@@ -1,3 +1,80 @@
-h1 {
-  color: aqua;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99999999;
+    background-color: #fff;
+}
+
+.welc {
+    color: #172B4D;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menu {
+    color: #172B4D;
+    font-size: 1.3rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url("./images/header-illsutration-mobile@2x.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.identity {
+    color: #172b4d;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center
+}
+
+.identity span {
+    color: #36B37E;
+}
+
+.profile {
+    font-weight: 400;
+    font-size: 20px;
+    color: #172B4D;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.icon-group {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0%;
+}
+
+.icon {
+    padding: 5px;
+    margin-left: 0;
+    color: #505F79;
+}
+
+.fa-brands {
+    font-size: larger;
+    color: #505F79;
+}
+
+.fa-solid {
+    font-size: larger;
+    color: #505F79;
 }
