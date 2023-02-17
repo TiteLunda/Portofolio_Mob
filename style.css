@@ -10,12 +10,11 @@
   background-color: #fff;
 }
 
-.welc {
+#logo {
   color: #172b4f;
   text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
   font-size: 20px;
+  font-weight: 700;
 }
 
 .menu {
@@ -23,13 +22,13 @@
   font-size: 12px;
 }
 
-.hero {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("/images/header-illsutration-mobile@2x.jpg");
+  background-image: url("/Images/header-illsutration-mobile@2x.jpg");
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -62,6 +61,7 @@
   flex-direction: row;
   justify-content: center;
   padding: 0%;
+  list-style-type: none;
 }
 
 .icon {
