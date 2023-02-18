@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -87,6 +87,7 @@
 .works {
   background-color: #fff;
   padding-bottom: 40px;
+  display: grid;
 }
 
 .Recent {
@@ -114,6 +115,7 @@
   flex-direction: row;
   margin-bottom: 20px;
   align-items: center;
+  list-style-type: none;
 }
 
 .Languages .language {
@@ -127,16 +129,50 @@
 }
 
 .Read-more {
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: #36b37e;
   color: #fff;
+  text-align: center;
+}
+
+.Read-more:hover {
+  background-color: #36b37f;
+  transition: 0.7s;
+}
+
+.Read-more:active {
+  background-color: #008552;
+}
+
+.b_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px 5px 12px;
+  gap: 10px;
+  margin: 13px 0 24px 0;
+}
+
+.button {
+  background-color: #36b37f;
   font-weight: 600px;
   font-size: 17px;
-  background-color: #36b37f;
-  border-radius: 8px;
-  padding: 14px 10px;
-  border: 1px solid green;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: white;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  border: 2px solid #36b37f;
+}
+
+.button:hover {
+  transform: rotate(360deg);
+  transform: scale(1.01);
 }
 
 .About-me {
@@ -188,14 +224,14 @@
 }
 
 .about-title {
-  color: var(--dl-color-neutrals-n800);
+  color: #172b4d;
   width: 351px;
   height: auto;
   font-size: 40px;
   align-self: auto;
   font-style: bold;
   text-align: center;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 52px;
   font-stretch: normal;
   margin-right: 0;
@@ -204,12 +240,11 @@
 }
 
 .aboutme-text .p {
-  color: var(--dl-color-neutrals-n500);
+  color: #42526e;
   width: 351px;
   height: auto;
   font-size: 20px;
   align-self: auto;
-  font-style: regular;
   text-align: center;
   font-weight: 400;
   line-height: 32px;
@@ -232,6 +267,11 @@
   text-align: center;
 }
 
+.aboutme-button:hover {
+  background-color: #36b37f;
+  transition: 0.7s;
+}
+
 .aboutme-card {
   width: 327px;
   display: flex;
@@ -239,7 +279,7 @@
   overflow: hidden;
   position: relative;
   align-items: center;
-  flex-shrink: 0;
+  justify-content: center;
   border-color: transparent;
   flex-direction: column;
 }
