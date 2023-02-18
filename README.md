@@ -112,7 +112,7 @@ npm test
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you can follow me on Github, linkdin or Twitter for more .
+If you like this project, you can follow me on Github, linkdin or Twitter for more . Thanks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
