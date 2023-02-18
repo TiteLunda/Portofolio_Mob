@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
 
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -31,7 +35,7 @@
   background-image: url("/Images/header-illsutration-mobile@2x.jpg");
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
 }
 
 .identity {
@@ -78,4 +82,741 @@
 .fa-solid {
   font-size: larger;
   color: #505f79;
+}
+
+.works {
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+.Recent {
+  color: #172b4d;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 20px;
+}
+
+.cards {
+  padding: 10px 10px 30px 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.Languages {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.Languages .language {
+  color: #3a4a42;
+  font-size: 12px;
+  text-align: center;
+  background-color: #ebebff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+
+.Read-more {
+  color: #fff;
+  font-weight: 600px;
+  font-size: 17px;
+  background-color: #36b37f;
+  border-radius: 8px;
+  padding: 14px 10px;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-me {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.descr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.headlin {
+  font-size: 40px;
+  color: #172b4d;
+  margin-top: 1px;
+  padding-top: 5px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.about-me {
+  width: 375px;
+  height: auto;
+  display: flex;
+  padding: 64px 24px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.aboutme-text {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 58px;
+  flex-direction: column;
+}
+
+.about-title {
+  color: var(--dl-color-neutrals-n800);
+  width: 351px;
+  height: auto;
+  font-size: 40px;
+  align-self: auto;
+  font-style: bold;
+  text-align: center;
+  font-weight: 700;
+  line-height: 52px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.aboutme-text .p {
+  color: var(--dl-color-neutrals-n500);
+  width: 351px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: regular;
+  text-align: center;
+  font-weight: 400;
+  line-height: 32px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.aboutme-button {
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: #36b37e;
+  color: #fff;
+  text-align: center;
+}
+
+.aboutme-card {
+  width: 327px;
+  display: flex;
+  padding: 1px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.aboutme-card-works-inactive {
+  width: 327px;
+  height: 352px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+
+.aboutme-img-plaholder {
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 352px;
+  position: absolute;
+  border-color: rgba(193, 199, 208, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.aboutme-icons {
+  top: 16px;
+  left: 0;
+  width: 327px;
+  height: 128px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.aboutme-iconlanguages {
+  top: 24px;
+  left: 124px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0 0 0 0;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.aboutme-ellipse15 {
+  top: 0;
+  left: -20px;
+  width: 120px;
+  height: 110px;
+  position: absolute;
+  border-color: transparent;
+}
+
+.aboutme-icon-langguage {
+  top: 16px;
+  left: 16px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.aboutme-frame {
+  top: 2.0001628398895264px;
+  left: 1.9996745586395264px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.aboutme-group {
+  top: 0;
+  left: 0;
+  width: 43.999534606933594px;
+  height: 43.99990463256836px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0 0 0 0;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.aboutme-titleand-tag {
+  top: 184px;
+  left: 0;
+  width: 327px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.aboutme-text10 {
+  color: var(--dl-color-neutrals-n600);
+  width: 337px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  text-align: center;
+  font-weight: 700;
+  line-height: 32px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.aboutme-tags {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+
+.aboutme-tag {
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 8px;
+  background-color: #ffff;
+}
+
+.aboutme-tag-text {
+  color: #36b37e;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: semi bold;
+  text-align: left;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.aboutme-card-works-inactive1 {
+  width: 327px;
+  height: 352px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+
+.aboutme-frame19 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.aboutme-tags1 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 8px;
+}
+
+.aboutme-icons1 {
+  top: 16px;
+  left: 0;
+  width: 327px;
+  height: 128px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.iconDisplay {
+  top: 24px;
+  left: 124px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0 0 0 0;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.aboutme-icon-name {
+  top: 16px;
+  left: 16px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.aboutme-group7 {
+  top: 6px;
+  left: 4px;
+  width: 38.399803161621094px;
+  height: 38.161048889160156px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0 0 0 0;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.aboutme-card-works-inactive2 {
+  width: 327px;
+  height: 352px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.aboutme-frame191 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.aboutme-tags3 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 8px;
+}
+
+.aboutme-tags4 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+
+.aboutme-icons2 {
+  top: 16px;
+  left: 0;
+  width: 327px;
+  height: 128px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.aboutme-iconskills {
+  top: 24px;
+  left: 124px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0 0 0 0;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.aboutme-icon-name1 {
+  top: 16px;
+  left: 16px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+
+
+/* form */
+
+.form-form {
+  width: 375px;
+  height: auto;
+  display: flex;
+  padding: 64px 24px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.form-text {
+  color: #172b4d;
+  width: 327px;
+  height: 363;
+  font-size: 24px;
+  font-style: bold;
+  text-align: center;
+  font-weight: 700;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.form-form1 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.form-text-field-inactive {
+  width: 327px;
+  height: 48px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+
+.form-container-basic {
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.form-container1 {
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 48px;
+  position: absolute;
+  border-color: rgba(208, 217, 212, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.form-text03 {
+  top: 15px;
+  left: 16px;
+  color: var(--dl-color-theme1-neutrals6);
+  width: 295px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.form-text-field-inactive1 {
+  width: 327px;
+  height: 48px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+
+.form-container-basic1 {
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.form-container2 {
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 48px;
+  position: absolute;
+  border-color: rgba(208, 217, 212, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.form-text05 {
+  top: 15px;
+  left: 16px;
+  color: var(--dl-color-theme1-neutrals6);
+  width: 295px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.form-text-area-hover {
+  width: 327px;
+  height: 114px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+
+.form-container3 {
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 114px;
+  position: absolute;
+  border-color: rgba(96, 192, 149, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.form-text07 {
+  top: 12px;
+  left: 12px;
+  color: var(--dl-color-theme1-neutrals1);
+  width: 303px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.form-icon-resizer-handle {
+  top: 90px;
+  left: 303px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.form-union {
+  top: 6.5px;
+  left: 6.5px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.form-button-enable {
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: var(--dl-color-theme2-primary2);
+}
+
+.form-text09 {
+  color: var(--dl-color-theme2-neutral11);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.email {
+  text-align: center;
+  color: black;
+  font-size: 16px;
 }

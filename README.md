@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
   <br/>
-  <h3><b>Hello World Project</b></h3>
+  <h3><b>Portofolio Project</b></h3>
 
 </div>
 
@@ -26,7 +26,7 @@
 
 # 📖 [Hello-World] <a name="about-project"></a>
 
-This project is about my personal Portofolio whis contain profil about myself.
+This project is about my personal Portofolio whis contain profil about myself, Skills and Experience.
 ## 🛠 Built With <a name="built-with"></a>
   -CSS3
   -HTML5
