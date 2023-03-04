@@ -1,7 +1,9 @@
 <a name="readme-top"></a>
+
 <div align="center">
   <br/>
-  <h3><b>Portofolio Project</b></h3>
+
+  <h3><b>Tite Portfolio Site</b></h3>
 
 </div>
 
@@ -18,41 +20,61 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Hello-World] <a name="about-project"></a>
+# 📖 [Tite Portfolio Site] <a name="about-project"></a>
 
-This project is about my personal Portofolio whis contain profil about myself, Skills and Experience.
+This project is about building a personal portfolio website - specifically about the mobile first usage. By giving a glance to this project you can understand the usage of flexbox container and flexbox items. The purpose of this project is making an effective, SEO friendly, responsive, and quality personal portfolio to showcase myself to the professional market.
+I have completed the thirs milstone of the following project and add a HTML from to my portfolio website!
+The third miltstone of the portfolio project(Desktop-Version using media quries) has been achieved and added!
+
 ## 🛠 Built With <a name="built-with"></a>
-  -CSS3
-  -HTML5
+-HTML5
+-CSS3
 
 ### Tech Stack <a name="tech-stack"></a>
-  -CSS
-  -HTML
-
 <details>
-<summary>Database</summary>
+  <summary>Version Control</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://github.com/">Git Hub</a></li>
   </ul>
 </details>
-
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/html5/">HTML5</a></li>
+    <li><a href="https://www.css3.com/">CSS</a></li>
+  </ul>
+</details>
+ 
 ### Key Features <a name="key-features"></a>
 
-- **[Linters_Setup]**
-- **[Follow_HTMLandCSS_best_practice]**
-- **[Display_Text]**
+- **[Usage of flexbox]**
+- **[Mobile responsives portfolio setup]**
+- **[Use-of-HTML5 tools]**
+- **[Follow HTML and CSS best practice]**
+- **[Style your picture placehilders]**
+- **[Use of css grid properrty]**
+- **[Use of HTML form with custamization]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/TiteLunda/Portofolio_Mob)
+- [<a href="https://github.com/TiteLunda/Portofolio_Mob/" target="_blank">Online version</a>](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,67 +85,105 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
--Visual Code Studio
+
+-Visual Studio Code
 -Github Account
--GitBash
--Node Js
+-Git Bash
+-Node JS
+-Figma Templates
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-Use git clone command(https://github.com/TiteLunda/Portofolio_Mob.git) 
-or download ZIP folder 
-
+ Use git clone command or downloaded ZIP folder
+Example command:
+```sh
+  cd my-folder
+  git clone: (https://github.com/TiteLunda/Portofolio_Mob.git)
+```
 ### Install
 
-Install this project with:
-npm
+Install this project with: npm Example commands:
+```sh
+  cd my-project
+  npm init -y
+```
+```sh
+  npm install --save-dev hint@7.x
+```
+```sh
+  npx hint .
+```
+```sh
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
 
 ### Usage
 
-To run the project, execute the following command:
--npm  start or live Server
-
+To run the project, execute the following command: npm test
+Example command:
+```sh
+   GitHub Pages Server
+```
 ### Run tests
 
-To run tests, run the following command:
-npm test
+To run tests, run the following command: npm test
+Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+  ```
+
+### Deployment
+
+You can deploy this project using:
+GitHub Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="author"></a>
 
 👤 **Tite Lunda**
 
-- GitHub: [@TiteLunda](https://github.com/TiteLunda)
+- GitHub: [@eTiteLunda](https://github.com/TiteLunda)
 - Twitter: [@LundaTite](https://twitter.com/LundaTite)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tite-lunda-094956199/)
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Responsiveness]**
-- [ ] **[Javascript_Developments]**
-- [ ] **[Screen_Resolution]**
+- [ ] **[More section inclusiveness]**
+- [ ] **[Desktop Responsivness]**
+- [ ] **[Animation ]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [https://github.com/TiteLunda/Portofolio_Mob/](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you can follow me on Github, linkdin or Twitter for more . Thanks
+If you like this project then please follow me on Linkedin, Twitter and GitHub. Greetings!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank My team Partners and Microverse staff
+I would like to thank Microvers for  this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p
